@@ -53,7 +53,7 @@ st.markdown("""
         }
         .stChatInput textarea {
             background-color: #121212 !important;
-            color: #d3d3d3 !important; /* Changed from white to light gray */
+            color: #d3d3d3 !important; /* <--- CHANGE THIS COLOR */
             border-radius: 12px;
             border: 1px solid #333 !important;
             font-size: 16px;
@@ -63,8 +63,9 @@ st.markdown("""
         .stChatInput textarea:focus {
             background-color: #1c1c1c !important;
             border: 1px solid #555 !important;
-            color: #d3d3d3 !important; /* Ensure focus state also uses light gray */
+            color: #d3d3d3 !important; /* <--- AND CHANGE THIS COLOR */
             outline: none !important;
+        }
         }
         footer {visibility: hidden;}
         h1, p, hr {
