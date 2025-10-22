@@ -11,14 +11,14 @@ st.markdown("""
     <style>
         body, .main {
             background-color: #000000;
-            color: black;
+            color: white;
             font-family: 'Arial', sans-serif;
         }
         .assistant {
             background-color: #1e1e1e;
             padding: 15px;
             border-radius: 12px;
-            color:black;
+            color: #ffffff;
             font-weight: bold;
             margin-bottom: 10px;
             box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
@@ -68,7 +68,7 @@ st.markdown("""
         }
         footer {visibility: hidden;}
         h1, p, hr {
-            color:white;
+            color: white;
             text-align: center;
         }
         .invalid-message, .sentiment-message {
