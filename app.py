@@ -69,7 +69,7 @@ st.markdown("""
         }
         footer {visibility: hidden;}
         h1, p, hr {
-            color: white;
+            color: black;
             text-align: center;
         }
         .invalid-message, .sentiment-message {
