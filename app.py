@@ -168,7 +168,7 @@ if user_input:
         name = st.session_state.candidate_data.get("name", "Candidate")
         st.session_state.messages.append({"role": "assistant", "text": f"Thank you, {name}, for your time! Best of luck! 😊"})
         st.session_state.finished = True
-        st.experimental_rerun()
+        st.rerun()  # <--- CORRECTION 1
 
     # --- Sentiment Analysis ---
     sentiment, sentiment_message = analyze_sentiment(user_input)
@@ -184,7 +184,7 @@ if user_input:
             st.session_state.messages.append({"role": "assistant", "text": "Compris ! Nous continuerons en français. Veuillez répondre à la question précédente."})
         else:
             st.session_state.messages.append({"role": "assistant", "text": "Please specify a supported language (e.g., Spanish, French) or continue in English."})
-        st.experimental_rerun()
+        st.rerun()  # <--- CORRECTION 2
 
     current_step = st.session_state.step
     candidate_data = st.session_state.candidate_data
@@ -221,7 +221,7 @@ if user_input:
         else:
             st.session_state.messages.append({"role": "assistant", "text": FALLBACK})
 
-    st.experimental_rerun()
+    st.rerun()  # <--- CORRECTION 3
 
 # --- Display Invalid Message and Sentiment Feedback ---
 if st.session_state.invalid_message:
