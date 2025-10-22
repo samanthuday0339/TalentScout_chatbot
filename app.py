@@ -11,7 +11,7 @@ st.markdown("""
     <style>
         body, .main {
             background-color: #000000;
-            color: white;
+            color: black;
             font-family: 'Arial', sans-serif;
         }
         .assistant {
@@ -68,7 +68,7 @@ st.markdown("""
         }
         footer {visibility: hidden;}
         h1, p, hr {
-            color:black;
+            color:white;
             text-align: center;
         }
         .invalid-message, .sentiment-message {
