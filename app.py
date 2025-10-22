@@ -84,8 +84,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Header ---
-st.markdown("<h1 style='text-align:center; color:white;'>TalentScout Hiring Assistant 💼</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align:center; font-size:17px;'>Your AI-powered partner for tech talent screening</p><hr>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center; color:black;'>TalentScout Hiring Assistant 💼</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center; font-size:17px;'>AI-powered partner for tech talent screening</p><hr>", unsafe_allow_html=True)
 
 # --- Session State Setup ---
 if "messages" not in st.session_state:
