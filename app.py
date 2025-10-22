@@ -67,11 +67,28 @@ st.markdown("""
             outline: none !important;
         }
         }
-        footer {visibility: hidden;}
-        h1, p, hr {
-            color: black;
-            text-align: center;
+        footer { visibility: hidden; }
+
+        h1 {
+             color: black;
+             text-align: center;
+             font-size: 48px;       /* Make it bigger */
+             font-weight: 900;      /* Make it very bold */
+            }
+
+       p {
+         color: black;
+         text-align: center;
+         font-size: 22px;       /* Make paragraph bigger */
+        font-weight: 700;      /* Bold text */
         }
+
+    hr {
+    border: 2px solid black;  /* Thicker line */
+    width: 60%;                /* Optional: make it shorter than full width */
+    margin: 10px auto;         /* Center the line */
+       }
+
         .invalid-message, .sentiment-message {
             color: #ff5555;
             font-size: 14px;
